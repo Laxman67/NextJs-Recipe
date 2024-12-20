@@ -19,7 +19,7 @@ const RecipeList = ({ recipeList }) => {
         {recipeList && recipeList.length > 0
           ? recipeList.map((recipe) => {
               return (
-                <Link href={`recipe-list/${recipe.id}`}>
+                <Link href={`recipes-list/${recipe.id}`}>
                   <Card>
                     <CardContent className="bg-white rounded-md overflow-hidden shadow-md cursor-pointer hover:scale-[1.07] transition-all">
                       <div className="w-full aspect-h-8 lg:h-80 ">
